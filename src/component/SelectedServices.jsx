@@ -5,22 +5,16 @@ export const SelectedServices = () => {
   return (
     <>
        <div
-          className="flex flex-col items-center mb-32 md:mb-0"
+          className="w-full h-[62vh] md:h-screen 3xl:h-[70vh] 4xl:h-[60vh] bg-cover bg-no-repeat bg-center flex flex-col items-center mb-32 md:mb-0"
           style={{
             backgroundImage: `url(${screen5})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            width: "100%",
-            height:'100vh'
           }}
         >
           
-          <h1 className="pt-28 text-[36px] md:text-[48px] lg:text-[60px] xl:text-[72px] font-extrabold w-[90vw] 
-          md:w-[80vw] lg:w-[60vw] xl:w-[24vw] md:text-center leading-tight my-10">
+          <h1 className="md:pt-28 2xl:pt-20 4xl:pt-[26rem] text-[36px] md:text-[48px] lg:text-[60px] xl:text-[72px] 2xl:text-[96px] 4xl:text-[9rem] 6xl:text-[12rem] font-extrabold w-[90vw] md:w-[80vw] lg:w-[60vw] xl:w-[24vw] md:text-center leading-tight 2xl:leading-[100px]  4xl:leading-[140px] 6xl:leading-[170px] my-10 xl:my-10 2xl:my-14 4xl:my-28 6xl:my-32">
             Selected Services
           </h1>
-          <p className="text-[16px] md:text-[18px] lg:text-[20px] md:text-center w-[90vw] md:w-[80vw] lg:w-[60vw] xl:w-[51vw]">
+          <p className=" text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-[30px] 4xl:text-[54px] 6xl:text-[72px] md:text-center w-[90vw] md:w-[80vw] lg:w-[60vw] xl:w-[55vw] 2xl:w-[60vw] 3xl:w-[40vw] 4xl:w-[34vw] 6xl:w-[28vw]">
             Explore our specialized services in the realm of asset tokenization,
             where we bridge the gap between traditional finance and the digital
             world. Our expert team provides comprehensive legal support for the

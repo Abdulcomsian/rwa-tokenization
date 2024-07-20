@@ -10,7 +10,10 @@ export default {
       screens: {
         'xsm': '320px',
         'ysm': '375px',
-        'zsm': '425px'
+        'zsm': '425px',
+        '3xl': { 'min': '2500px', 'max': '3999px' }, // Custom screen
+        '4xl': '4000px',
+        '6xl': '6000px'
       },
       animation: {
         'bounce-up': 'bounce-up 1s',
@@ -21,6 +24,12 @@ export default {
           '40%': { transform: 'translateY(-20px)' },
           '60%': { transform: 'translateY(-10px)' },
         },
+      },
+      height: {
+        'custom-80': '80vh',
+      },
+      backgroundSize: {
+        'contain': 'contain',
       },
     },
   },

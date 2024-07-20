@@ -41,7 +41,7 @@ const FAQS = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-6 md:mx-10 lg:mx-20 xl:mx-24 my-20 md:my-16 xl:pr-20 lg:mt-40 2xl:mt-16">
+    <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-1 3xl:grid-cols-2 gap-4 mx-6 md:mx-10 lg:mx-20 xl:mx-24 2xl:mx-24 my-20 md:my-16 3xl:mt-48 4xl:mt-72 6xl:mt-96 xl:pr-20 lg:mt-40 2xl:mt-16">
       {faqs.map((faq, index) => (
         <div
           className={`accordion pb-4 border-b border-solid border-gray-200 ${
@@ -55,15 +55,16 @@ const FAQS = () => {
             aria-controls={`collapse-${index}`}
             onClick={() => handleToggle(index)}
           >
-            <p className="text-[#333333] text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold">
+            <p className="text-[#333333] text-lg sm:text-xl md:text-2xl lg:text-[24px] 2xl:text-[32px] 4xl:text-[4rem] 6xl:text-[6rem] 
+                  4xl:leading-[80px] 6xl:leading-[100px] font-bold">
               {faq.question}
             </p>
             <svg
-              className={`text-gray-900 mr-4 md:mr-8 lg:mr-16 transition duration-500 group-hover:text-indigo-600 transform ${
+              className={`text-gray-900 w-6 h-6 lg:w-8 lg:h-8 2xl:w-10 2xl:h-10 4xl:w-24 4xl:h-24 6xl:w-28 6xl:h-24  mr-4 md:mr-8 lg:mr-16 2xl:mr-[18rem] transition duration-500
+                 group-hover:text-indigo-600 transform ${
                 activeIndex === index ? "rotate-45" : ""
               }`}
-              width="22"
-              height="22"
+              
               viewBox="0 0 22 22"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +87,7 @@ const FAQS = () => {
             }`}
             aria-labelledby={`faq-${index}`}
           >
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-6 px-4 md:px-10">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-[30px] 4xl:text-[54px] 6xl:text-[72px] text-gray-600 leading-6 2xl:leading-10 6xl:leading-[100px] px-4 md:px-10">
               {faq.answer}
             </p>
           </div>

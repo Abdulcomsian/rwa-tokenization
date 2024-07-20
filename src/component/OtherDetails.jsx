@@ -10,11 +10,12 @@ export const OtherDetails = () => {
             backgroundImage: `url(${screen7})`,
           }}
         >
-          <div className=" mx-6 lg:mx-24">
-            <h1 className="text-[44px] text-center lg:text-[72px] font-extrabold lg:w-10 lg:leading-[80px]">
+          <div className=" mx-6 lg:mx-24 2xl:mx-40">
+            <h1 className="text-[44px] text-center lg:text-[72px] 2xl:text-[96px] 4xl:text-[10rem] 6xl:text-[12rem] font-extrabold lg:w-10 
+            lg:leading-[80px] 2xl:leading-[110px] 4xl:leading-[10rem] 6xl:leading-[12rem]">
               Other Details
             </h1>
-            <p className="lg:w-[36rem] text-[20px] py-10 text-[#333333]">
+            <p className="lg:w-[36rem] 2xl:w-[52rem] 4xl:w-[20vw] text-[16px] md:text-[20px] py-10 4xl:pt-24 text-[#333333] 2xl:text-[30px] 4xl:text-[54px] 6xl:text-[72px]">
               In the transformative field of asset tokenization, Aurum Law Firm
               is a trusted legal advisor, guiding clients through the
               complexities of digitizing real-world assets. Our selected cases,

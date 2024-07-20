@@ -12,18 +12,18 @@ import AssestsTonkenize from "./component/AssestsTonkenize";
 
 const App = () => {
   return (
-    <>
-        <FreeConsultation/>
-        <TokenizationGuide/>
-        <ComprehensiveGuide/>
-        <AssestsTonkenize/>
-         <TokenLegalAccess/>
-        <RegulatoryCompliance/>
-        <SelectedServices/>
-        <FAQS />
-        <OtherDetails/>
-        <RealestateTokenization/>
-    </>
+<div className="xl:flex flex-col items-center">
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><FreeConsultation/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><TokenizationGuide/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><ComprehensiveGuide/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><AssestsTonkenize/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><TokenLegalAccess/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><RegulatoryCompliance/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><SelectedServices/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><FAQS /></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><OtherDetails/></div>
+<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><RealestateTokenization/></div>
+</div>  
   );
 };
 export default App;
