@@ -12,18 +12,19 @@ import AssestsTonkenize from "./component/AssestsTonkenize";
 
 const App = () => {
   return (
-<div className="xl:flex flex-col items-center">
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><FreeConsultation/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><TokenizationGuide/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><ComprehensiveGuide/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><AssestsTonkenize/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><TokenLegalAccess/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><RegulatoryCompliance/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><SelectedServices/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><FAQS /></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><OtherDetails/></div>
-<div className="xl:w-[90vw]  2xl:w-[70vw] 4xl:w-[44vw] "><RealestateTokenization/></div>
+<div className="1xl:flex flex-col items-center">
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><FreeConsultation/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><TokenizationGuide/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><ComprehensiveGuide/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><AssestsTonkenize/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><TokenLegalAccess/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><RegulatoryCompliance/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><SelectedServices/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><FAQS /></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><OtherDetails/></div>
+<div className="1xl:w-[90vw] 11xl:w-[75vw]  3xl:w-[70vw] 4xl:w-[44vw] "><RealestateTokenization/></div>
 </div>  
   );
 };
 export default App;
+ 

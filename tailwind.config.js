@@ -11,7 +11,10 @@ export default {
         'xsm': '320px',
         'ysm': '375px',
         'zsm': '425px',
+        '1xl': '1440px',
+        '11xl':'2000px',
         '3xl': { 'min': '2500px', 'max': '3999px' }, // Custom screen
+                '3.1xl':'3400px',
         '4xl': '4000px',
         '6xl': '6000px'
       },
